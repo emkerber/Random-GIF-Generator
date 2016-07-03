@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>GIF Generator</title>
+    <link href="gifGenerator.css" rel="stylesheet" />
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="processing.js"></script>
+    <script src="gifGenerator.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Peek-a-GIF</h1>
+    </header>
+
+    <form>
+
+      <h2>What piques your interest?</h2>
+
+      <select id="dropDown">
+        <option value="empty"></option>
+        <option value="gifRandom">Show me a GIF I won't expect.</option>
+        <option value="stickerRandom">Surprise sticker please!</option>
+        <option value="gifTag">I want a GIF that looks a little like...</option>
+        <option value="stickerTag">Make my day with a sticker that's...</option>
+        <option value="searchBoth">I know exactly what I want. Let's see some...</option>
+        <option value="trendingGifs">What's so hot right now?</option>
+      </select>
+
+      <div id="optionalBox"></div>
+
+      <div id="submitButton"></div>
+
+    </form>
+
+    <div id="gifGallery"></div>
+
+    <div id="moreButton"></div>
+
+  </body>
+
+</html>
