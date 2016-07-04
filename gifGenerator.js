@@ -1,7 +1,5 @@
 //JavaScript and jQuery
 
-//Had originally planned on incorporating processing.js but ran out of time
-
 //jQuery document ready
 $(document).ready(function() {
 
@@ -159,7 +157,7 @@ $(document).ready(function() {
                                     });
                                     break;
 
-                          default:
+                          default: //if the switch needs this default value
                               console.log('HUH?');
                               break;
                             }
