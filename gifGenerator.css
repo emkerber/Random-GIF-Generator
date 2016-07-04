@@ -8,6 +8,11 @@ li, form, label, select, option, footer, header, section {
 	vertical-align: baseline;
 }
 
+body {
+  background-image: url('asanoha-400px.png');
+  background-color: #deb887;
+}
+
 h1 {
   margin: 3%;
   font-size: 300%;
@@ -36,6 +41,7 @@ input {
 }
 
 img {
+  clear: both;
   display: block;
   margin: 2% auto 2% auto;
 }

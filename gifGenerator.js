@@ -1,4 +1,6 @@
-//JavaScript, jQuery, and Processing.js
+//JavaScript and jQuery
+
+//Had originally planned on incorporating processing.js but ran out of time
 
 //jQuery document ready
 $(document).ready(function() {
@@ -161,12 +163,10 @@ $(document).ready(function() {
                               console.log('HUH?');
                               break;
                             }
-                    
+
 
 
 
             })
 
 });
-
-        //animations
