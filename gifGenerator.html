@@ -15,29 +15,24 @@
 
     <header>
       <h1>Peek-a-GIF</h1>
+      <h2>What piques your interest?</h2>
     </header>
 
-    <form>
+    <select id="dropDown">
+      <option value="emptySelection"> </option>
+      <option value="gifRandom">Show me a GIF I won't expect.</option>
+      <option value="stickerRandom">Surprise sticker please!</option>
+      <option value="gifTag">I want a GIF that looks a little like...</option>
+      <option value="stickerTag">Make my day with a sticker that's...</option>
+      <option value="search">I know exactly what I want. Let's see some...</option>
+      <option value="trendingGifs">What's so hot right now?</option>
+    </select>
 
-      <h2>What piques your interest?</h2>
+    <button class="arrowButton" id="arrowButton1">⤞</button>
 
-      <select id="dropDown">
-        <option value="empty"></option>
-        <option value="gifRandom">Show me a GIF I won't expect.</option>
-        <option value="stickerRandom">Surprise sticker please!</option>
-        <option value="gifTag">I want a GIF that looks a little like...</option>
-        <option value="stickerTag">Make my day with a sticker that's...</option>
-        <option value="searchBoth">I know exactly what I want. Let's see some...</option>
-        <option value="trendingGifs">What's so hot right now?</option>
-      </select>
+    <div id="optionalBox"></div>
 
-      <button class="arrowButton" id="arrowButton1">⤞</button>
-
-      <div id="optionalBox"></div>
-
-      <div class="arrowButton" id="arrowButton2"></div>
-
-    </form>
+    <!-- <div class="arrowButton" id="arrowButton2"></div> -->
 
     <div id="gifGallery"></div>
 
