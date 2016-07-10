@@ -19,3 +19,8 @@ Allow normal (non-random) [searching](https://github.com/Giphy/GiphyAPI#sticker-
 ## Extra Credit
 
 Add a button that will pull 10 trending GIFS from the Giphy API and put them on the screen. Every time the button is clicked it should clear out the previous results and replace them with the new results.
+
+ ========================================================
+ This pattern is downloaded from www.subtlepatterns.com
+ If you need more, that's where to get'em.
+ ========================================================
